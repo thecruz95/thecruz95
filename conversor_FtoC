@@ -1,0 +1,19 @@
+var nome = "Ary"
+
+var temperaturaF = 89
+var calculoUm = 1.8
+var calculoDois = 32
+
+var temperaturaF = (temperaturaF - calculoDois) / calculoUm
+
+var temperaturaFFixada = temperaturaF.toFixed(0)
+
+
+            console.log("Bem-vindo, " + nome +  ", o resultado da sua conversão de F para C é: " + temperaturaF)
+
+       
+         
+
+// Para fazer o JS reconhecer números decimais, basta adicionar um ponto no lugar da vírgula, tal como na variável calculoUm. 
+
+// Para priorizar a ordem dos cálculos, deve-se colocar parênteses na operação que deseja realizar primeiro, assim o JS conseguirá entender o que deve ser feito em primeiro lugar.  
