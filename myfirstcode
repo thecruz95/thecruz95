@@ -1,0 +1,12 @@
+var nome = "Ary"
+
+var temperaturaCelsius = 20
+var calculoUm = 1.8
+var calculoDois = 32
+
+var temperaturaCelsius = (temperaturaCelsius * calculoUm + calculoDois)
+
+var temperaturaCelsiusFixada = temperaturaCelsius.toFixed(0)
+
+
+            console.log("Bem-vindo, " + nome +  ", o resultado da sua conversão de celsius para fahrenheit é: " + temperaturaCelsiusFixada)
